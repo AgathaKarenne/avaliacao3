@@ -186,7 +186,7 @@ void imprimirRelatorioProduto(Produto *estoque)
         atual = atual->prox;
     }
 }
-int main()
+main()
 {
     srand((unsigned int)time(NULL)); // gerar sempre codigos diferentes
     Produto *estoque = criarListaVazia();
